@@ -9,7 +9,7 @@ define mc = Character(_("Me"))
 label start:
 
     # Start by playing some music.
-    play music ""
+    play music 
 
     scene bg groceryaisle
     with fade
@@ -30,16 +30,20 @@ label start:
 
 
 
-
-
 #First decision for player. Need to consider if this goes into final score card.
 
     play music
     ???? "Hey..." 
     
+    mc "is that..." 
+    
+    k "
     
       
-    scene bg uni
+   
+   
+   
+   scene bg uni
     with fade
 
     "When we come out of the university, I spot her right away."
