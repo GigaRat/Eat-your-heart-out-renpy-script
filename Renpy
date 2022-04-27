@@ -53,11 +53,28 @@ label start:
         "Did i make you speechless?":
             jump Blushes
             #15 points
-
-
+           
 
 label Beg:
+    “oh sir, would you be ever so kind as to step aside?”
 
-label Smirk
-
+label Smirk:
+    “that was TOO easy *pet name*”
+    
 label Blushes: 
+    "K blushes, picks you up and pushes you aside to say" “not much of a challenge there *pet name*” 
+    
+    "K collects his snack and pats you on the head" “see ya later *user name*"
+    
+    mc "*pet name*?!?"
+    
+    mc "Phew… my heart is pounding...if that lasted any longer i would’ve started barking!” 
+
+    “Anyways..."
+    
+    "I guess I should wait to figure out what I'm going to bake for white day."
+
+    "I need to hang on to this money just in case… and wait until i’ve made my decision on who to bake for."
+    
+    "Like i said, there aarrree a couple more that have caught my eye…” 
+    
