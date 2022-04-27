@@ -71,7 +71,7 @@ label Blushes:
         jump Groceryend
     
    
-label Groceryend:
+label Grocery_end:
     
     "K collects his snack and pats you on the head" “see ya later *user name*"
     
