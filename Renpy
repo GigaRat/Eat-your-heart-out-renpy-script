@@ -56,12 +56,15 @@ label start:
            
 
 label Beg:
+    $ b = 10
     “oh sir, would you be ever so kind as to step aside?”
 
 label Smirk:
+    $ s = 5
     “that was TOO easy *pet name*”
     
 label Blushes: 
+    $ l = 15
     "K blushes, picks you up and pushes you aside to say" “not much of a challenge there *pet name*” 
     
     "K collects his snack and pats you on the head" “see ya later *user name*"
