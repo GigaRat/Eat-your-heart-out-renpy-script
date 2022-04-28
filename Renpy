@@ -144,7 +144,11 @@ label Grocery_end:
         m “Would you stop joking around? I have to get back to my dorm soon..What will the fee be?”
       
         Menu flirt_choices:
+            “What? Afraid to kiss another boyy?”
             
+             mc "He’s just SO cute when he blushes… i find it hard to resist teasing him."
+
+             "Im not even sure that he’s gay, but these moments really start to have me question."
         
     
            
