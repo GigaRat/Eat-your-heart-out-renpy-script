@@ -124,11 +124,13 @@ label Grocery_end:
     m: “That seems only fair.. What is the fee this time  *user name*?” 
     
     menu Tease:
-        "..."
-        #this suggests user is not that interested, jump to label open door.
+        "...":
+            jump open_door
+        #this suggests user is not that interested, jump to label open door to end scene.
         
-        "Wellll... how about a kiss?"
-        #this suggest user is interested, jump to next menu
+        "Wellll... how about a kiss?":
+            jump flirt-w-masa
+        #this suggest user is interested, jump to next menu for points.
         
         
     label open_door:
@@ -136,6 +138,14 @@ label Grocery_end:
     
     
     label flirt_w_masa:
+    
+        Show Masa blushes 
+        
+        m “Would you stop joking around? I have to get back to my dorm soon..What will the fee be?”
+      
+        Menu flirt_choices:
+            
+        
     
            
            
