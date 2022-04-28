@@ -9,7 +9,7 @@ define mc = Character(_("Me"))
 label start:
 
     # Start by playing some music.
-    play music "audio/love_start_opening.mp3"
+    play music "love_start_opening"
 
     scene bg groceryaisle
     with fade
@@ -36,12 +36,14 @@ label start:
     ???? "Hey..." 
 
     mc "speaking of sweet selections.. Here comes one of them" 
+    
+    Show k
 
     k "Are you just going to stand there or can I grab my snack?"
 
     mc "Oooohhh… yeah that is only if you ask nicely"
 
-    K "..."
+    k "..."
 
     menu introK:
         "....":
@@ -67,13 +69,13 @@ label Smirk:
     
 label Blushes: 
     $ blush_points = 15
-    "K blushes, picks you up and pushes you aside to say" “not much of a challenge there *pet name*” 
+    "Kyou blushes, picks you up and pushes you aside. "Not too much of a challenge there *pet name*"
         jump Groceryend
     
    
 label Grocery_end:
     
-    "K collects his snack and pats you on the head" “see ya later *user name*"
+    "Kyou collects his snack and pats you on the head" See you later *pet name*" 
     
     mc "*pet name*?!?"
     
@@ -87,3 +89,57 @@ label Grocery_end:
     
     "Like i said, there aarrree a couple more that have caught my eye…” 
     
+    #this marks the end of scene 1 for k. 
+    
+    splashscreen
+    
+    #scene 2 starts here. 
+    
+    
+    label Dorms:
+    
+    Show dormhall
+    with fade
+    
+    mc "I’ve been really busy between classes at the university and having to be the dorms RA."
+       
+    "I can’t stop thinking about White day since it’s so close now. "
+    
+    "I’ve never really had to “woo” somebody since I only came out my last year of high school… "
+    
+    "I just wonder what kind of dessert just screams “I want ot hold your hand in the gay ki-”
+    
+    m "Oh…. *user name*... i’ve been looking for you."
+    
+    mc: “let me guess. You’re locked out again because you were so engrossed in reading?” 
+
+    Show masa shy
+
+    m: “.. Would you be able to open it up for free this time? I know i said last time would be the last bu-” 
+
+    mc: “Oook but you know i can’t do it for free. The fee this time will have to be heftier considering last time the fee was only 5 dollars” 
+
+    Show masa annoyed
+
+    m: “That seems only fair.. What is the fee this time  *user name*?” 
+    
+    menu Tease:
+        "..."
+        #this suggests user is not that interested, jump to label open door.
+        
+        "Wellll... how about a kiss?"
+        #this suggest user is interested, jump to next menu
+        
+        
+    label open_door:
+    
+    
+    
+    label flirt_w_masa:
+    
+           
+           
+    
+        
+        
+        
