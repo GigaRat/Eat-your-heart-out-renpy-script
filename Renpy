@@ -259,17 +259,7 @@ label s3:
     r "We have a new tournament coming up, so we were out here practicing! Here, I’ll show you!"
 
     mc "Hold on, I think I got it the first time. No need for another demonstration!"
-    
-    menu:
-        "As I was saying, you need to be keep it down if you do that here.":
-            jump
-        
-        "You guys need to take it somewhere else, people are trying to sleep!":
-            jump
-
-Label 
-
-    
+ 
 
 
 
